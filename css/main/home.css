@@ -1,0 +1,42 @@
+.home{
+    background-image: url('../../img/banner/banner-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+.home .slide .slide-text h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.home .slide .slide-text p{
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+.home .slide .btn{
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: var(--color-primary);
+    border-radius: 5px;
+    color: var(--color-white);
+}
+@media (min-width:920px){
+    .home .slide .slide-text h1 {
+        font-size: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .home .slide .slide-text p {
+        font-size: 1.25rem;
+        line-height: 1.7;
+        margin-bottom: 2rem;
+    }
+}

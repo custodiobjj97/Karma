@@ -1,0 +1,30 @@
+.features{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 1rem;
+}
+
+.features .box{
+    padding: 3rem;
+    border:1px solid var(--color-primary);
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s;
+}
+.features .box:hover{
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+.features .box img{
+    margin-bottom:2rem;
+
+}
+
+@media (min-width:920px){
+    .features{
+        grid-template-columns: repeat(4,1fr);
+    }
+}

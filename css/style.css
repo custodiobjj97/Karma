@@ -1,0 +1,30 @@
+/*global*/
+@import "global/global.css";
+@import "global/header.css";
+
+
+/*home*/
+@import "main/home.css";
+@import "main/features.css";
+
+/*category*/
+@import "category/category.css";
+
+/*shop*/
+@import "shop/shop.css";
+/*deal*/
+@import "deal/deal.css";
+/*blog*/
+@import "blog/blog.css";
+
+
+/*contact*/
+@import "contact/contact.css";
+
+/*footer*/
+
+@import "footer/footer.css";
+
+/*slider*/
+@import "slide/slide.css";
+@import "animation/animation.css";

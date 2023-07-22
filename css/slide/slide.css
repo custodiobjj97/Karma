@@ -1,0 +1,50 @@
+.section-slider{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+.slider-container{
+   height: 100vh;
+   display: inline-flex;
+   cursor: grab;
+   transform: translateX(0);
+   transition: transform 0.3s ease-in-out;
+}
+
+.slide{
+    width: 100vw;
+    max-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    user-select: none;
+    padding: 1rem;
+}
+
+.slide .slide-image{
+    width: 100%;
+}
+.slide-text{
+    width: 100%;
+
+}
+
+
+.slide .slide-image img{
+    width: 100%;
+}
+
+.grabbing{
+    cursor: grabbing;
+}
+
+@media (min-width:920px) {
+    .home .slide{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .shop .slide img{
+        width: 50%;
+    }
+}
